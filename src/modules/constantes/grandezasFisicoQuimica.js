@@ -1,18 +1,18 @@
 'use strict';
 
 const grandezas = {
-  g: require('./g'),
-  R: require('./R'),
-  P0: require('./P0'),
-  e: require('./e'),
-  k: require('./k'),
-  F:require('./F'),
-  h: require('./h'),
-  m: require('./m'),
-  NA: require('./NA'),
-  c: require('./c'),
-  Vmol: require('./Vmol'),
-  T0: require('./T0')
+  g: require('./grandezas/g'),
+  R: require('./grandezas/R'),
+  P0: require('./grandezas/P0'),
+  e: require('./grandezas/e'),
+  k: require('./grandezas/k'),
+  F:require('./grandezas/F'),
+  h: require('./grandezas/h'),
+  m: require('./grandezas/m'),
+  NA: require('./grandezas/NA'),
+  c: require('./grandezas/c'),
+  Vmol: require('./grandezas/Vmol'),
+  T0: require('./grandezas/T0')
 };
 
 const procuraConstantePorSimbolo = (simbolo) => {
