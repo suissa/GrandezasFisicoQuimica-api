@@ -9,3 +9,5 @@ API para as constantes Físico-Química
 - /api/constante/:simbolo/nome
 - /api/constante/:simbolo/valor
 - /api/constante/:simbolo/definicao
+
+Exemplo: `http://localhost:8080/api/constante/c/nome`
