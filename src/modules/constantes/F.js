@@ -1,4 +1,5 @@
 module.exports = {
+  simbolo: 'F',
   nome: 'Constante de Faraday', 
   valor: '9.648*10^4', 
   unidade: ['C/mol'],

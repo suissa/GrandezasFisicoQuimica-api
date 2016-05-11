@@ -1,4 +1,5 @@
 module.exports = {
+  simbolo: 'R',
   nome: 'Constante Universal dos Gases', 
   valor: {
     verdadeiro:'0.082', 

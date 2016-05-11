@@ -14,10 +14,20 @@ const grandezas = {
   Vmol: require('./Vmol'),
   T0: require('./T0')
 };
+
 const procuraConstantePorSimbolo = (simbolo) => {
   if(simbolo in grandezas) return  grandezas[simbolo];  
 };
-const listaConstantes = () => grandezas;
+const listaConstantes = () => {
+  let constantesArray = [];
+  for (var p in grandezas) {
+    if( grandezas.hasOwnProperty(p) ) {
+      let obj = grandezas[p]
+      constantesArray.push(grandezas[p]);
+    }
+  }
+  return constantesArray;
+};
 
 module.exports = { procuraConstantePorSimbolo, listaConstantes};
 
