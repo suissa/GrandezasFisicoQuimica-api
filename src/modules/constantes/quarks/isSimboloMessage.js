@@ -1,0 +1,1 @@
+module.exports = 'O símbolo {VALUE} não pode ser vazio!';

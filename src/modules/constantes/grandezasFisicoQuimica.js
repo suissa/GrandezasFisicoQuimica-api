@@ -21,10 +21,7 @@ const procuraConstantePorSimbolo = (simbolo) => {
 const listaConstantes = () => {
   let constantesArray = [];
   for (var p in grandezas) {
-    if( grandezas.hasOwnProperty(p) ) {
-      let obj = grandezas[p]
-      constantesArray.push(grandezas[p]);
-    }
+    if(grandezas.hasOwnProperty(p)) constantesArray.push(grandezas[p]);
   }
   return constantesArray;
 };

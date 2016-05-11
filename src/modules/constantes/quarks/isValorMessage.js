@@ -1,0 +1,1 @@
+module.exports = 'O valor {VALUE} não é válido!';
