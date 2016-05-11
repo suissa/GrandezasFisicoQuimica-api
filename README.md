@@ -1,5 +1,8 @@
 # constantes-api
-API para as constantes Físico-Química
+
+API para as constantes Físico-Química.
+
+Ainda está em *Array* pois esse código iniciou como um ensino de JS para a minha mina que é química.
 
 ## Rotas
 
