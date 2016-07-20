@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbURI = 'mongodb://localhost/modelo-padrao';
+const dbURI = 'mongodb://localhost/grandezas';
 
 mongoose.connect(dbURI);
 
